@@ -21,6 +21,7 @@ body {
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	flex-wrap: wrap;
 }
 
 h1,
@@ -52,16 +53,17 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	
 }
 
 header h1 {
-
+width:100%;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -72,6 +74,7 @@ header h1 span {
 header nav {
 	
 	padding: 46px 0;
+	width:100%;
 }
 header nav ul {
 	margin: 0;
@@ -82,6 +85,7 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 0 10px;
+	list-style: none;
 	
 }
 header nav ul li a{

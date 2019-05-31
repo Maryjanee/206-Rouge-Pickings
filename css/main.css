@@ -12,6 +12,7 @@ body {
 	display:flex;
 	justify-content:center;
 	align-items:center;
+
 	
 }
 
@@ -22,6 +23,7 @@ body {
 	justify-content:center;
 	align-items:center;
 	flex-wrap: wrap;
+	
 }
 
 h1,
@@ -59,22 +61,28 @@ header {
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	flex-wrap: wrap;
+	
 	
 }
 
 header h1 {
-width:100%;
-	margin: 0;
-	padding: 38px 0;
+      width:100%;
+	  margin: 0;
+	  padding: 38px 0;
+	  text-align: center;
 }
 header h1 span {
 	color: #77a466;
+	
 }
 
 header nav {
 	
 	padding: 46px 0;
 	width:100%;
+	text-align: center;
+	
 }
 header nav ul {
 	margin: 0;

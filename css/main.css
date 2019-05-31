@@ -67,9 +67,9 @@ header {
 }
 
 header h1 {
-      width:100%;
-	  margin: 0;
-	  padding: 38px 0;
+     width:100%;
+	margin: 0;
+	padding: 38px 0;
 	  text-align: center;
 }
 header h1 span {
@@ -79,7 +79,7 @@ header h1 span {
 
 header nav {
 	
-	padding: 46px 0;
+	padding: 5px 0;
 	width:100%;
 	text-align: center;
 	
@@ -87,6 +87,7 @@ header nav {
 header nav ul {
 	margin: 0;
 	padding: 0;
+	line-height: 3em;
 }
 header nav ul li {
 	text-transform: uppercase;

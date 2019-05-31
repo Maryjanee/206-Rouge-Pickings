@@ -12,6 +12,7 @@ body {
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	padding:0 20px;
 
 	
 }
@@ -67,10 +68,10 @@ header {
 }
 
 header h1 {
-     width:100%;
+    width:100%;
 	margin: 0;
 	padding: 38px 0;
-	  text-align: center;
+	text-align: center;
 }
 header h1 span {
 	color: #77a466;
@@ -78,8 +79,6 @@ header h1 span {
 }
 
 header nav {
-	
-	padding: 5px 0;
 	width:100%;
 	text-align: center;
 	
@@ -109,6 +108,8 @@ header nav ul li a{
 	justify-content:center;
 	align-items:center;
 	margin: 0 auto;
+	flex-wrap: wrap;
+
 	
 }
 
@@ -123,6 +124,7 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
+
 	
 }
 .main-title h3 {
@@ -140,17 +142,21 @@ header nav ul li a{
 .section-two,
 .section-three {
 	height: auto;
+	text-align: left;
 	
 	border-top: 1px solid #eee;
 }
 
 .section-one h4 {
 	padding: 10px 0;
+	
+	
 }
 
 .section-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
+	
 }
 
 .section-two h4,
@@ -183,8 +189,8 @@ footer {
 	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	
 	text-align: center;
+	padding-left:1px;
 }
 footer span {
 	font-family: 'Wisdom Script', cursive;

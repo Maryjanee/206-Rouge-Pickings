@@ -144,11 +144,7 @@ header nav ul li a{
 .section-three {
 	height: auto;
 	width:100%;
-
-    border-top: 1px solid #eee;
 }
-
-
 .menu {
 	list-style: none;
 	padding: 0;
@@ -184,12 +180,6 @@ footer span {
 }
 
 @media all and (min-width:768px){
-	bottom-section{
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-		width:100%;
-	}
 	.section-one,.section-two,.section-three{
 		width:33%;
 		height:100px;
@@ -199,11 +189,5 @@ footer h4{
 }
 }
 
-@media all and (min-width:1200px){
-	header nav ul {
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-end;
-	  }
+
 	
-}
